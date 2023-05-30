@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrap{
+    width: 100vw;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+form{
+    width: 448px;
+    height: 500px;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+form a{
+    color: #1a73e8;
+    font-size: 15px;
+}
+
+.top{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top h2{
+    font-weight: 400;
+}
+
+.login{
+    width: 382px;
+    margin: 0 auto;
+}
+
+.login input{
+    width: 350px;
+    height: 54px;
+    border: 1px solid #dadce0;
+    padding: 0 15px;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.info{
+    background-color: yellowgreen;
+    display: flex;
+    color: #5f6368;
+    font-size: 15px;
+    width: 382px;
+    margin: 0 auto;
+}
+
+.join{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    width: 382px;
+    margin: 0 auto;
+    align-items: baseline;
+}
+
+.join button{
+    width: 77px;
+    height: 37px;
+    background-color: #1a73e8;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.join button:hover{
+    background-color: #1b66c9;
+    box-shadow: 1px 1px 3px #c2c2c2;
+}
+
+.join button:active{
+    background-color: #1c5fba;
+    box-shadow: 1px 1px 3px #c2c2c2;
+}
