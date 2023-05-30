@@ -10,6 +10,10 @@
 #wrap{
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 a{
@@ -21,7 +25,9 @@ form{
     height: 500px;
     border: 1px solid #dadce0;
     border-radius: 10px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
 }
 
 form a{
@@ -29,11 +35,20 @@ form a{
     font-size: 15px;
 }
 
+form > div{
+    margin: 20px 40px;
+}
+
 .top{
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
+}
+
+.top img, h2{
+    margin-bottom: 10px;
 }
 
 .top h2{
@@ -41,36 +56,36 @@ form a{
 }
 
 .login{
-    width: 382px;
-    margin: 0 auto;
 }
 
 .login input{
-    width: 350px;
+    width: 335px;
     height: 54px;
     border: 1px solid #dadce0;
     padding: 0 15px;
     font-size: 17px;
     border-radius: 4px;
+    margin-bottom: 5px;
 }
 
 .info{
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     display: flex;
     color: #5f6368;
     font-size: 15px;
-    width: 382px;
-    margin: 0 auto;
+    width: 370px;
 }
 
 .join{
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
-    font-size: 13px;
-    width: 382px;
-    margin: 0 auto;
+    width: 370px;
     align-items: baseline;
+}
+
+.join span a{
+    font-size: 13px;
 }
 
 .join button{
@@ -91,4 +106,20 @@ form a{
 .join button:active{
     background-color: #1c5fba;
     box-shadow: 1px 1px 3px #c2c2c2;
+}
+
+/* 하단메뉴 */
+
+.f-menu{
+    width: 448px;
+    height: 50px;
+    background-color: violet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.f-menu a{
+    padding: 10px;
 }
