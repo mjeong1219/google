@@ -75,6 +75,11 @@ form > div{
     width: 370px;
 }
 
+.info p a:hover{
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px #6aa1fa;
+}
+
 .join{
     display: flex;
     justify-content: space-between;
@@ -84,6 +89,16 @@ form > div{
 
 .join span a{
     font-size: 13px;
+    width: 90px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+}
+
+.join span a:hover{
+    background-color: #f6fafe;
+    border-radius: 3px;
 }
 
 .join button{
@@ -94,16 +109,17 @@ form > div{
     border: none;
     color: #fff;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .join button:hover{
     background-color: #1b66c9;
-    box-shadow: 1px 1px 3px #c2c2c2;
+    box-shadow: 0px 2px 3px #c2c2c2;
 }
 
 .join button:active{
     background-color: #1c5fba;
-    box-shadow: 1px 1px 3px #c2c2c2;
+    box-shadow: 0px 2px 3px #c2c2c2;
 }
 
 /* 하단메뉴 */
@@ -115,6 +131,7 @@ form > div{
     justify-content: space-between;
     align-items: center;
     font-size: 13px;
+    margin-top: 5px;
 }
 
 .f-menu select{
@@ -123,17 +140,19 @@ form > div{
     border: none;
     border-radius: 5px;
     padding-left: 10px;
+    cursor: pointer;
+    outline: none;
 }
 
 .f-menu a{
     padding: 15px;
 }
 
-.f-menu select:hover{
+.f-menu select:active{
     background-color: #eeeeee;
 }
 
-.f-menu a:hover{
+.f-menu a:active{
     background-color: #e0e0e0;
     border-radius: 5px;
 }

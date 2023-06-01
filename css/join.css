@@ -7,5 +7,139 @@
 }
 
 #wrap{
-    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+form{
+    max-width: 750px;
+    height: 592px;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex
+}
+
+form input{
+    width: 175px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #dadce0;
+    font-size: 15px;
+    padding-left: 10px;
+    outline: none
+}
+
+form p{
+    font-size: 14px;
+    padding-left: 10px;
+    color: #797979
+}
+
+form a{
+    color: #1a73e8;
+    font-size: 15px;
+}
+
+.left{
+    width: ;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.top img{
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.top span{
+    font-size: 25px;
+}
+
+.email{
+    width: 100%;
+}
+
+.email .e-name{
+    width: 356px;
+    border-radius: 3px;
+    border: 1px solid #dadce0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.email a{
+    display: inline-block;
+    margin: 15px 0 40px;
+}
+
+.email .e-name input{
+    border: none;
+    padding-left: 0;
+    width: 100%;
+}
+
+.email .e-name span{
+    font-size: 14px;
+}
+
+
+
+.checkbox{
+}
+
+.password input[type="checkbox"]{
+    width: 15px;
+}
+
+.checkbox label{
+    display: inline-block;
+}
+
+.join{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.join button{
+    width: 77px;
+    height: 37px;
+    background-color: #1a73e8;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+.join button:hover{
+    background-color: #1b66c9;
+    box-shadow: 0px 2px 3px #c2c2c2;
+}
+
+.join button:active{
+    background-color: #1c5fba;
+    box-shadow: 0px 2px 3px #c2c2c2;
+}
+
+.right{
+    width: 300px;
 }
